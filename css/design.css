@@ -80,9 +80,9 @@ body
     border: 2px solid white;
     margin-top: 5%;
     margin-left: 10%;
-
+    float: center;
 }
-.intro
+.text_intro
 {
     margin-top: 5%;
     color: white;
@@ -128,4 +128,18 @@ hr.star-bright, hr.star-dark {
     border: 0;
     border-top: solid 5px;
     text-align: center;
+}
+.imagef
+{
+    width:555px !important;
+    height:300px !important;
+    text-align: center;
+}
+.img_br
+{
+    border: 2px solid white;
+}
+.ofont
+{
+    color: white;
 }

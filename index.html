@@ -10,9 +10,11 @@
     <link rel="stylesheet" type="text/css" href="css/design.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <script src="js/jquery-2.2.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="container-fluid">
+<div class="container">
     <div class="row">
         <div class="col-md-12 text center">
         <h1 style="font-size: 59px">Hello World !</h1>
@@ -56,11 +58,12 @@
     <br>
     <br>
     <div class="row" id="intro">
+    <br>
         <div class="col-md-6">
             <img src="Images/me.jpg" class="image">
         </div>
         <div class="col-md-6">
-            <p class="intro">
+            <p class="text_intro">
                 Hi,
                 <br>
                 My name is Sandeep Kumar Choudhary, right now i am pursuing Bacholer of Technology in Computer Science Engineering from Amritsar College of Enginering and Technology and in 7th Sem right now.
@@ -72,9 +75,85 @@
     <hr class="star-bright">
     <br>
     <br>
-    <div class="portfolio row">
-
+    <div class="row backcolor ">
+            <div class="col-md-12">
+                <h3 class="ofont">Featured Work</h3>
+            </div>
     </div>
+    <br>
+    <br>
+    <div class="row backcolor">
+        <div class="col-md-6 imagef">
+            <img  class="imagef img-responsive img_br" data-toggle="modal" data-target="#myModal" src="images/mysky.png">
+            <a href="https://github.com/Skchoudhary"><h3>My Sky</h3></a>
+        </div>
+        <div class="col-md-6 imagef">
+            <img class=" imagef img-responsive img_br" src="images/file.png" data-toggle="modal" data-target="#myFile">
+            <a href="https://github.com/Skchoudhary"><h3>File Handling</h3></a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row backcolor">
+        <div class="col-md-6 imagef">
+            <img  class="imagef img-responsive img_br" data-toggle="modal" data-target="#myModal" src="images/mysky.png">
+            <a href="https://github.com/Skchoudhary"><h3>My Sky</h3></a>
+        </div>
+        <div class="col-md-6 imagef">
+            <img class=" imagef img-responsive img_br" src="images/file.png" data-toggle="modal" data-target="#myFile">
+            <a href="https://github.com/Skchoudhary"><h3>File Handling</h3></a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal  File Handling-->
+<div class="modal fade" id="myFile" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">File Handling</h4>
+      </div>
+      <div class="modal-body">
+      <img  class="imagef img-responsive "src="images/file.png">
+        <p>A file handling project built in C++ with stream libraies to manage files.</p>
+         <h3>Teamates for the project</h3>
+         <ul>
+             <li>Sajal Verma</li>
+             <li>Rishab Jaitely</li>
+         </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal  My Sky-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">My Sky</h4>
+      </div>
+      <div class="modal-body">
+      <img class="imagef img-responsive "src="images/mysky.png">
+    <p>A video chat software that allow friends to communicate with each other in more friendly way.</p>
+         <h3>Teamates for the project</h3>
+         <ul>
+             <li>Ritika Sharma</li>
+             <li>Parul Mahajan</li>
+         </ul>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+
 </div>
 </body>
 </html>
