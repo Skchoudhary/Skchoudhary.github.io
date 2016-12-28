@@ -92,3 +92,40 @@ body
     font-family: 'Poppins', sans-serif;
     font-size: 2em;
 }
+hr.star-bright::after, hr.star-dark::after {
+    content: '\f121';
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-size: 2em;
+}
+hr.star-bright::after
+{
+    color: #fff;
+    text-align: right;
+    background-color: #151515;
+    }
+hr.star-bright::after, hr.star-dark::after
+{
+    content: '\f121';
+    font-family: FontAwesome;
+    display: inline-block;position: relative;
+    top: -.8em;padding: 0 .25em;
+    font-size: 2em;
+}
+*::after, *::before
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+hr.star-bright, hr.star-dark {
+    margin: 40px auto 30px;
+    padding: 0;
+    max-width: 512px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
