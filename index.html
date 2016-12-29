@@ -16,6 +16,13 @@
 <body>
 <div class="container">
     <div class="row">
+        <div class="nav col-md-12" id="home">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#intro" class="btn">About Me</a></li>
+            <li><a href="#portfolio" class="btn">Portfolio</a></li>
+        </ul>
+    </div>
         <div class="col-md-12 text center">
         <h1 style="font-size: 59px">Hello World !</h1>
         <h4 style="font-size: 69px">I'm Sandeep Choudhary</h4>
@@ -54,28 +61,43 @@
     </div>
     <br>
     <br>
-    <hr class="star-bright">
+    <hr class="star-bright" id="intro">
+    <br >
     <br>
+    <div class="row" >
     <br>
-    <div class="row" id="intro">
-    <br>
-        <div class="col-md-6">
+        <div class=" center col-md-12">
             <img src="Images/me.jpg" class="image">
+            <p class="text_intro" >Sandeep Choudhary</p>
+            <p class="day ">
+            <span>
+                Developer
+            </span>
+            <span>
+                Student
+            </span>
+            <span>
+                Hacker
+            </span>
+            <span>
+                Learner
+            </span>
+        </p>
         </div>
-        <div class="col-md-6">
+   <!--     <div class="col-md-6">
             <p class="text_intro">
                 Hi,
                 <br>
                 My name is Sandeep Kumar Choudhary, right now i am pursuing Bacholer of Technology in Computer Science Engineering from Amritsar College of Enginering and Technology and in 7th Sem right now.
             </p>
-        </div>
+        </div> -->
     </div>
     <br>
     <br>
-    <hr class="star-bright">
+    <hr class="star-bright" id="portfolio">
     <br>
     <br>
-    <div class="row backcolor ">
+    <div class="row backcolor " >
             <div class="col-md-12">
                 <h3 class="ofont">Featured Work</h3>
             </div>
@@ -85,11 +107,11 @@
     <div class="row backcolor">
         <div class="col-md-6 imagef">
             <img  class="imagef img-responsive img_br" data-toggle="modal" data-target="#myModal" src="images/mysky.png">
-            <a href="https://github.com/Skchoudhary"><h3>My Sky</h3></a>
+            <a href="https://github.com/Skchoudhary/MySky"><h3>My Sky</h3></a>
         </div>
         <div class="col-md-6 imagef">
             <img class=" imagef img-responsive img_br" src="images/file.png" data-toggle="modal" data-target="#myFile">
-            <a href="https://github.com/Skchoudhary"><h3>File Handling</h3></a>
+            <a href="https://github.com/Skchoudhary/FileHandling"><h3>File Handling</h3></a>
         </div>
     </div>
     <br>
@@ -98,14 +120,39 @@
     <br>
     <div class="row backcolor">
         <div class="col-md-6 imagef">
-            <img  class="imagef img-responsive img_br" data-toggle="modal" data-target="#myModal" src="images/mysky.png">
-            <a href="https://github.com/Skchoudhary"><h3>My Sky</h3></a>
+            <img  class="imagef img-responsive img_br" data-toggle="modal" data-target="#mysecretar" src="images/secretar.jpg">
+            <a href="https://github.com/Skchoudhary/Secretar"><h3>Secretar</h3></a>
         </div>
         <div class="col-md-6 imagef">
-            <img class=" imagef img-responsive img_br" src="images/file.png" data-toggle="modal" data-target="#myFile">
-            <a href="https://github.com/Skchoudhary"><h3>File Handling</h3></a>
+            <img class=" imagef img-responsive img_br" src="images/feedback.jpg" data-toggle="modal" data-target="#myForm">
+            <a href="https://github.com/Skchoudhary/Teacher-Evaluation"><h3>FeedBack Form</h3></a>
         </div>
     </div>
+    <br><br><br><br>
+    <div class="row backcolor">
+        <div class="col-md-6 imagef">
+            <img  class="imagef img-responsive img_br" data-toggle="modal" data-target="#mymeetup" src="images/Capture.JPG">
+            <a href="https://meetup-1329.appspot.com/#/"><h3>Conference Central</h3></a>
+        </div>
+        <div class="col-md-6 imagef">
+            <img class=" imagef img-responsive img_br" src="images/portfolio.JPG" data-toggle="modal" data-target="#myport">
+            <a href="https://skchoudhary.github.io/"><h3>Portfolio</h3></a>
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+        <div class="nav_bt" >
+        <ul>
+            <li><a target="_blank" href="https://sandeepchoudharyme.wordpress.com/"><i class="fa fa-rss" aria-hidden="true"></i></a>
+            </li>
+            <li><a target="_blank" href="https://github.com/Skchoudhary"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </li>
+            <li><a target="_blank" href="https://in.linkedin.com/in/skchoudhary15"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </li>
+            <li><a target="_blank" href="https://www.facebook.com/SandeepChoudhary1507"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            </li>
+            <li><p>&#169; Sandeep Choudahry (2016)</p></li>
+        </ul>
+        </div>
 </div>
 
 
@@ -153,7 +200,86 @@
       </div>
     </div>
   </div>
+</div>
+<!-- Modal  Secretar-->
+<div class="modal fade" id="mysecretar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Secretar</h4>
+      </div>
+      <div class="modal-body">
+      <img class="imagef img-responsive "src="images/secretar.jpg">
+    <p>Time management application whose ultimate goal is to increase your efficiency of your work. It based on Pomodoro Technique and other research work which ultimate help person it increase it's efficiency.</p>
+         <h3>Teamates for the project</h3>
+         <ul>
+             <li>Sumit Singh</li>
+             <li>Vishal Choudhary</li>
+             <li>Sandeep Singh</li>
+         </ul>
 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal  FeedBack Form-->
+<div class="modal fade" id="myForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel"><a href="https://github.com/Skchoudhary/Teacher-Evaluation"> Feedback Form </a></h4>
+      </div>
+      <div class="modal-body">
+      <img class="imagef img-responsive "src="images/feedback.jpg">
+    <p>Teacher Evaluation system helps College or School management. To get student feedback on faculty that teaches them, which further help teacher to increase their teaching style with changing technology. .</p>
+         <h3>Teamates for the project</h3>
+         <ul>
+             <li>Sumit Singh</li>
+             <li>Vishal Choudhary</li>
+         </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal  Conference Central-->
+<div class="modal fade" id="mymeetup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel"> Conference Central </h4>
+      </div>
+      <div class="modal-body">
+      <img class="imagef img-responsive "src="images/Capture.JPG">
+    <p>This allow you to mange your Conference and help you to see other Conference happening around you and to register with them.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal  Portfolio-->
+<div class="modal fade" id="myport" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel"> Portfolio </h4>
+      </div>
+      <div class="modal-body">
+      <img class="imagef img-responsive "src="images/portfolio.jpg">
+    <p>This is my personal website to showcase my work.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
 </div>
 </body>
 </html>
