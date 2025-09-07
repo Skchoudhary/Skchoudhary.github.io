@@ -69,7 +69,5 @@ document.addEventListener('DOMContentLoaded', fetchLatestPosts);
 
 - **E-mail:** sandeepchoudhary1507[AT]gmail[DOT]com
 - **LinkedIn:** [linkedin.com/in/sandeepk15](https://www.linkedin.com/in/sandeepk15/)
-- **Keep in touch:** [twitter](https://twitter.com/sandeepk__), [freenode](irc://irc.freenode.net/sandeepk,isnick), [rss feed](https://blogs.dgplug.org/sandeepk/feed/)
 - **GitHub:** [github.com/skchoudhary](https://github.com/skchoudhary/)
-
-- ~~story~~
+- **Keep in touch:** [twitter](https://twitter.com/sandeepk__), [freenode](irc://irc.freenode.net/sandeepk,isnick), [rss feed](https://blogs.dgplug.org/sandeepk/feed/)

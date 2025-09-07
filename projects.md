@@ -3,18 +3,12 @@ layout: page
 title: Projects
 ---
 
-Here are some projects I've worked on:
+## Technical Projects
 
-- **[Timepass website](https://timepasswebsites.lol/)**: Curated apps from around the world to amaze you.
+Below is a selection of software projects I have developed, showcasing my expertise in mobile application development, web development, and browser extension technologies:
 
-- **[Bookmark of the day](https://www.bookmarkoftheday.xyz/)**: Chrome extension app to revisit your Bookmarks like a pro!
+- **[SplitX](https://www.splitx.org)**: A comprehensive mobile application designed for expense management and bill splitting among groups. The application enables users to record transactions seamlessly and automatically calculate fair distribution of shared expenses, streamlining financial management for teams and social groups.
 
-- **[2 Pi](https://github.com/Skchoudhary/2pie)**: Slack bot to ease out the onboarding process for new employees in the team. Built with Python, Flask, and Slack APIs. *[On Hold]*
+- **[Timepass Websites](https://timepasswebsites.lol/)**: A curated collection of innovative web applications and digital tools sourced from developers worldwide. This platform serves as a discovery hub for unique digital experiences and showcases cutting-edge web development trends and creative implementations.
 
-- **[Lazy Click](https://github.com/Skchoudhary/Lazy-Click)**: Chrome App to handle Google Meet audio and video controls with a single click. Built with JavaScript.
-
-- **OTT Share**: Platform to share your OTT subscriptions with other people. Built with Python, Django, Django REST Framework, Vue.js, and MySQL. *[On Hold]*
-
-- **[Connect](https://github.com/Skchoudhary/connect)**: Helps establish SSH connections to your servers instantly, easy to configure and setup. Built with Bash and JSON Processor.
-
-- **[Battery Notify](https://blogs.dgplug.org/sandeepk/automatic-notification-for-the-laptop-battery-level)**: Bash script to notify laptop battery level.
+- **[Bookmark of the Day](https://www.bookmarkoftheday.xyz/)**: A Chrome browser extension that revolutionizes bookmark management through intelligent automation. The extension helps users rediscover and organize their saved content by presenting daily bookmark suggestions, enhancing productivity and information retrieval workflows.
