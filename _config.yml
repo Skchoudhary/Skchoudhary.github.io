@@ -1,0 +1,35 @@
+title: Sandeep Choudhary
+author: Sandeep Choudhary
+email: your-email@example.com
+description: > # this means to ignore newlines until "baseurl:"
+  Personal website of Sandeep Choudhary
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://skchoudhary.github.io" # the base hostname & protocol for your site
+
+twitter_username: your_twitter_handle
+github_username:  Skchoudhary
+
+# Build settings
+remote_theme: riggraz/no-style-please
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Theme configurations
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: "home" # customize the back home link text on your pages
+  date_format: "%B %-d, %Y" # customize how date is formatted
+  show_description: true # show the site description
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
