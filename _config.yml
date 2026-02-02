@@ -1,9 +1,6 @@
 title: Sandeep Choudhary
 author: Sandeep Choudhary
 email: your-email@example.com
-description: > # this means to ignore newlines until "baseurl:"
-  Personal website of Sandeep Choudhary
-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://skchoudhary.github.io" # the base hostname & protocol for your site
 
@@ -22,7 +19,7 @@ theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
   back_home_text: "home" # customize the back home link text on your pages
   date_format: "%B %-d, %Y" # customize how date is formatted
-  show_description: true # show the site description
+  show_description: false # show the site description
 
 # Exclude from processing
 exclude:
