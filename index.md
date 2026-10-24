@@ -1,12 +1,12 @@
 ---
 layout: portfolio
 title: Sandeep Choudhary | Software Engineer & Product Maker
-description: Sandeep Choudhary builds thoughtful, easy-to-use products that solve everyday problems, including SplitX, Bookmark of the Day, and cctrack.
+description: Sandeep Choudhary builds thoughtful, easy-to-use products that solve everyday problems, including SplitX, Bookmark of the Day, Env Guard, and cctrack.
 image:
   path: /assets/images/social-preview.png
   width: 1200
   height: 630
-  alt: Sandeep Choudhary's portfolio featuring SplitX, Bookmark of the Day, and cctrack
+  alt: Sandeep Choudhary's portfolio featuring SplitX, Bookmark of the Day, Env Guard, and cctrack
 seo:
   type: Person
   name: Sandeep Choudhary
@@ -41,7 +41,7 @@ seo:
             <p class="eyebrow">Made to be useful</p>
             <h2 id="products-title">Products &amp; experiments</h2>
           </div>
-          <span class="product-count">3 projects</span>
+          <span class="product-count">4 projects</span>
         </div>
 
         <div class="product-list">
@@ -72,6 +72,21 @@ seo:
             <div class="product-footer">
               <div class="product-proof"><span class="live-label"><span class="status-dot" aria-hidden="true"></span> Active</span><span class="proof-divider" aria-hidden="true"></span><span>38 active users</span></div>
               <a class="try-link" href="https://bookmarkoftheday.sandeepk.dev/" target="_blank" rel="noopener noreferrer">Try Bookmark of the Day <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="product-card envguard-card">
+            <div class="product-identity">
+              <img class="product-icon envguard-icon" src="/assets/images/envguard-icon.png" alt="Env Guard extension icon" width="76" height="76" />
+              <div>
+                <p class="product-category">For developers</p>
+                <h3>Env Guard</h3>
+              </div>
+            </div>
+            <p class="product-description">Stop confusing production with staging. Env Guard adds a color-coded border to the URLs you choose, right in your browser.</p>
+            <div class="product-footer">
+              <div class="product-proof"><span class="live-label"><span class="status-dot" aria-hidden="true"></span> Live</span><span class="proof-divider" aria-hidden="true"></span><span>Free &amp; open source</span></div>
+              <a class="try-link" href="https://chromewebstore.google.com/detail/env-guard/ieedmpaefmifnkooblmidnkoapcojanj" target="_blank" rel="noopener noreferrer">Add to Chrome <span aria-hidden="true">↗</span></a>
             </div>
           </article>
 

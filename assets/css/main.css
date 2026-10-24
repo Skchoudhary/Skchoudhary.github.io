@@ -265,6 +265,13 @@ body[a="auto"] img {
   border: 1px solid #eee7fa;
 }
 
+.envguard-icon {
+  padding: 7px;
+  border: 1px solid #f0e4dd;
+  background: #fff6f1;
+  object-fit: contain;
+}
+
 .product-category {
   margin: 0 0 2px;
   color: var(--muted);
