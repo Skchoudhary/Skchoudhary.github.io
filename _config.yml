@@ -6,7 +6,7 @@ author:
 email: work@sandeepk.dev
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.sandeepk.dev" # the base hostname & protocol for your site
-description: Sandeep Choudhary is a software engineer building thoughtful, easy-to-use products, including SplitX, Bookmark of the Day, and cctrack.
+description: Sandeep Choudhary is a software engineer building thoughtful, easy-to-use products, including SplitX, Bookmark of the Day, Env Guard, and cctrack.
 favicon: /favicon.ico
 
 twitter:
