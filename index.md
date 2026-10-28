@@ -104,7 +104,10 @@ seo:
       <footer class="about-footer">
         <p class="eyebrow">A little about me</p>
         <p>I like making useful things, learning from the people who use them, and improving them one step at a time.</p>
-        <a class="email-link" href="mailto:work@sandeepk.dev" data-goatcounter-click="email" data-goatcounter-title="Email">Say hello <span aria-hidden="true">↗</span></a>
+        <div class="footer-actions">
+          <a class="email-link" href="mailto:work@sandeepk.dev" data-goatcounter-click="email" data-goatcounter-title="Email">Say hello <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="/work/" data-goatcounter-click="work" data-goatcounter-title="Work history">Work history <span aria-hidden="true">↗</span></a>
+        </div>
         <div class="writing-links" aria-label="Writing">
           <span class="writing-label">Elsewhere</span>
           <a href="https://blogs.dgplug.org/sandeepk/" target="_blank" rel="noopener noreferrer" data-goatcounter-click="writing-engineering" data-goatcounter-title="Engineering and product notes">Engineering &amp; product notes <span aria-hidden="true">↗</span></a>
