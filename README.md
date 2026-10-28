@@ -19,16 +19,22 @@ The site will be available at `http://localhost:4000`.
 
 ## Features
 
-- **Minimal Design**: Uses the "no-style-please" theme with only 1kb of CSS
-- **Fast Loading**: Optimized for performance
-- **Dark Mode**: Automatic dark/light mode support
-- **Responsive**: Works on all devices
-- **SEO Optimized**: Built with Jekyll SEO plugin
+- **Products first**: the homepage leads with the four shipped products
+- **Fast Loading**: one small custom stylesheet on top of the theme
+- **Fixed light palette**: the theme's OS dark-mode inversion is disabled
+- **Responsive**: works from 320px up
+- **SEO Optimized**: Jekyll SEO tag, sitemap, and per-page social images
 
 ## Structure
 
 - `_config.yml` - Site configuration
-- `_data/menu.yml` - Navigation menu configuration
-- `_posts/` - Blog posts
-- `index.md` - Homepage content
-- `about.md` - About page
+- `index.md` - Homepage: products, about, and footer links
+- `writing.md` - `/writing/`, index of engineering and personal posts
+- `work.md` - `/work/`, role history and independent work
+- `privacy.md` - `/privacy/`, analytics note
+- `404.html` - Not-found page served by GitHub Pages
+- `projects.html` - Redirect from the old `/projects.html` to the homepage
+- `_includes/site-header.html` - Shared header
+- `_includes/head.html` - Head override: theme CSS, then `portfolio.css`
+- `assets/css/portfolio.css` - All custom styling
+- `_data/menu.yml` - Legacy theme menu data
