@@ -532,10 +532,6 @@ body[a="auto"] img {
   border-top: 1px solid var(--line);
 }
 
-.writing-item:last-child {
-  border-bottom: 1px solid var(--line);
-}
-
 .writing-item a {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -704,10 +700,6 @@ body[a="auto"] img {
   border-top: 1px solid var(--line);
   font-size: 14px;
   font-weight: 600;
-}
-
-.community-list li:last-child {
-  border-bottom: 1px solid var(--line);
 }
 
 .community-list span:last-child {
