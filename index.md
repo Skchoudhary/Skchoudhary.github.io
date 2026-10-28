@@ -21,9 +21,9 @@ seo:
     <header class="site-header">
       <a class="wordmark" href="/" aria-label="Sandeep Choudhary home">sandeep<span>k</span><b>.</b>dev</a>
       <nav aria-label="Social links" class="social-nav">
-        <a href="https://github.com/skchoudhary/" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
-        <a href="https://www.linkedin.com/in/sandeepk15/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
-        <a href="https://twitter.com/sandeepk__" target="_blank" rel="noopener noreferrer">Twitter <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/skchoudhary/" target="_blank" rel="noopener noreferrer" data-goatcounter-click="github" data-goatcounter-title="GitHub">GitHub <span aria-hidden="true">↗</span></a>
+        <a href="https://www.linkedin.com/in/sandeepk15/" target="_blank" rel="noopener noreferrer" data-goatcounter-click="linkedin" data-goatcounter-title="LinkedIn">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a href="https://twitter.com/sandeepk__" target="_blank" rel="noopener noreferrer" data-goatcounter-click="twitter" data-goatcounter-title="Twitter">Twitter <span aria-hidden="true">↗</span></a>
       </nav>
     </header>
 
@@ -32,7 +32,7 @@ seo:
         <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Independent software maker</p>
         <h1 id="intro-title">Small ideas.<br /><span>Useful software.</span></h1>
         <p class="intro-copy">I’m a software engineer who turns small annoyances into thoughtful, easy-to-use products.</p>
-        <a class="text-link" href="#products">Meet the products <span aria-hidden="true">↓</span></a>
+        <a class="text-link" href="#products" data-goatcounter-click="meet-products" data-goatcounter-title="Meet the products">Meet the products <span aria-hidden="true">↓</span></a>
       </section>
 
       <section class="products" id="products" aria-labelledby="products-title">
@@ -56,7 +56,7 @@ seo:
             <p class="product-description">Split bills, not friendships. Keep shared expenses clear and settle up without the awkward reminders.</p>
             <div class="product-footer">
               <div class="product-proof"><span class="live-label"><span class="status-dot" aria-hidden="true"></span> Active</span><span class="proof-divider" aria-hidden="true"></span><span>50+ users</span></div>
-              <a class="try-link" href="https://splitx.org/" target="_blank" rel="noopener noreferrer">Try SplitX <span aria-hidden="true">↗</span></a>
+              <a class="try-link" href="https://splitx.org/" target="_blank" rel="noopener noreferrer" data-goatcounter-click="splitx" data-goatcounter-title="Try SplitX">Try SplitX <span aria-hidden="true">↗</span></a>
             </div>
           </article>
 
@@ -71,7 +71,7 @@ seo:
             <p class="product-description">Rediscover the good stuff you’ve saved. Get one bookmark from your collection to revisit every day.</p>
             <div class="product-footer">
               <div class="product-proof"><span class="live-label"><span class="status-dot" aria-hidden="true"></span> Active</span><span class="proof-divider" aria-hidden="true"></span><span>38 active users</span></div>
-              <a class="try-link" href="https://bookmarkoftheday.sandeepk.dev/" target="_blank" rel="noopener noreferrer">Try Bookmark of the Day <span aria-hidden="true">↗</span></a>
+              <a class="try-link" href="https://bookmarkoftheday.sandeepk.dev/" target="_blank" rel="noopener noreferrer" data-goatcounter-click="bookmark-of-the-day" data-goatcounter-title="Try Bookmark of the Day">Try Bookmark of the Day <span aria-hidden="true">↗</span></a>
             </div>
           </article>
 
@@ -86,7 +86,7 @@ seo:
             <p class="product-description">Stop confusing production with staging. Env Guard adds a color-coded border to the URLs you choose, right in your browser.</p>
             <div class="product-footer">
               <div class="product-proof"><span class="live-label"><span class="status-dot" aria-hidden="true"></span> Live</span><span class="proof-divider" aria-hidden="true"></span><span>Free &amp; open source</span></div>
-              <a class="try-link" href="https://chromewebstore.google.com/detail/env-guard/ieedmpaefmifnkooblmidnkoapcojanj" target="_blank" rel="noopener noreferrer">Add to Chrome <span aria-hidden="true">↗</span></a>
+              <a class="try-link" href="https://chromewebstore.google.com/detail/env-guard/ieedmpaefmifnkooblmidnkoapcojanj" target="_blank" rel="noopener noreferrer" data-goatcounter-click="env-guard" data-goatcounter-title="Add Env Guard to Chrome">Add to Chrome <span aria-hidden="true">↗</span></a>
             </div>
           </article>
 
@@ -101,7 +101,7 @@ seo:
             <p class="product-description">See Claude Code token usage and estimated costs right in your terminal. Local-first, offline, and no API key required.</p>
             <div class="product-footer">
               <div class="product-proof"><span class="stage-label mvp-label">MVP</span><span class="proof-divider" aria-hidden="true"></span><span>Open source</span></div>
-              <a class="try-link" href="https://github.com/Sk786/cctrack" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>
+              <a class="try-link" href="https://github.com/Sk786/cctrack" target="_blank" rel="noopener noreferrer" data-goatcounter-click="cctrack" data-goatcounter-title="View cctrack on GitHub">View on GitHub <span aria-hidden="true">↗</span></a>
             </div>
           </article>
 
@@ -111,11 +111,12 @@ seo:
       <footer class="about-footer">
         <p class="eyebrow">A little about me</p>
         <p>I like making useful things, learning from the people who use them, and improving them one step at a time.</p>
-        <a class="email-link" href="mailto:work@sandeepk.dev">Say hello <span aria-hidden="true">↗</span></a>
+        <a class="email-link" href="mailto:work@sandeepk.dev" data-goatcounter-click="email" data-goatcounter-title="Email">Say hello <span aria-hidden="true">↗</span></a>
         <div class="writing-links" aria-label="Writing">
           <span class="writing-label">Elsewhere</span>
-          <a href="https://blogs.dgplug.org/sandeepk/" target="_blank" rel="noopener noreferrer">Engineering &amp; product notes <span aria-hidden="true">↗</span></a>
-          <a href="https://sandeepchoudharyme.wordpress.com/" target="_blank" rel="noopener noreferrer">Personal writing <span aria-hidden="true">↗</span></a>
+          <a href="https://blogs.dgplug.org/sandeepk/" target="_blank" rel="noopener noreferrer" data-goatcounter-click="writing-engineering" data-goatcounter-title="Engineering and product notes">Engineering &amp; product notes <span aria-hidden="true">↗</span></a>
+          <a href="https://sandeepchoudharyme.wordpress.com/" target="_blank" rel="noopener noreferrer" data-goatcounter-click="writing-personal" data-goatcounter-title="Personal writing">Personal writing <span aria-hidden="true">↗</span></a>
+          <a href="/privacy/" data-goatcounter-click="privacy" data-goatcounter-title="Privacy">Privacy</a>
         </div>
         <p class="copyright">© 2026 Sandeep Choudhary · Built independently</p>
       </footer>
