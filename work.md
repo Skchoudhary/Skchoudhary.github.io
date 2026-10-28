@@ -42,6 +42,19 @@ image:
           <article class="role">
             <header class="role-head">
               <div>
+                <h3>OpenCraft</h3>
+                <p class="role-title">Open Source Developer · Freelance</p>
+              </div>
+              <p class="role-meta"><time datetime="2021-06">Jun 2021</time> – <time datetime="2021-07">Jul 2021</time> · Remote</p>
+            </header>
+            <ul class="role-points">
+              <li>Set up and customized an Open edX deployment; Python and React.</li>
+            </ul>
+          </article>
+
+          <article class="role">
+            <header class="role-head">
+              <div>
                 <h3>TranZact</h3>
                 <p class="role-title">Software Engineer</p>
               </div>
@@ -57,19 +70,6 @@ image:
               <p class="role-contract-label">Contract · 2021 · 2 months</p>
               <p>Built the eWay Bill integration, cutting generation from about 20 minutes to seconds.</p>
             </div>
-          </article>
-
-          <article class="role">
-            <header class="role-head">
-              <div>
-                <h3>OpenCraft</h3>
-                <p class="role-title">Open Source Developer · Freelance</p>
-              </div>
-              <p class="role-meta"><time datetime="2021-06">Jun 2021</time> – <time datetime="2021-07">Jul 2021</time> · Remote</p>
-            </header>
-            <ul class="role-points">
-              <li>Set up and customized an Open edX deployment; Python and React.</li>
-            </ul>
           </article>
 
           <article class="role">
