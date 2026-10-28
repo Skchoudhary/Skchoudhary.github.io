@@ -424,6 +424,12 @@ body[a="auto"] img {
   border-top: 1px solid var(--line);
 }
 
+.about-footer .writing-links:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
 .writing-label {
   color: #91968e;
   font-size: 11px;
@@ -530,10 +536,6 @@ body[a="auto"] img {
 .writing-item {
   margin: 0;
   border-top: 1px solid var(--line);
-}
-
-.writing-item:last-child {
-  border-bottom: 1px solid var(--line);
 }
 
 .writing-item a {
@@ -704,10 +706,6 @@ body[a="auto"] img {
   border-top: 1px solid var(--line);
   font-size: 14px;
   font-weight: 600;
-}
-
-.community-list li:last-child {
-  border-bottom: 1px solid var(--line);
 }
 
 .community-list span:last-child {
