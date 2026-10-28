@@ -33,7 +33,7 @@ plugins:
 
 # Theme configurations
 theme_config:
-  appearance: "auto" # can be "light", "dark" or "auto"
+  appearance: "light" # keep the portfolio palette consistent; the theme inverts the page when set to auto/dark
   back_home_text: "home" # customize the back home link text on your pages
   date_format: "%B %-d, %Y" # customize how date is formatted
   show_description: false # show the site description

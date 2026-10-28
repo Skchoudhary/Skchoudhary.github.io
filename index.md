@@ -18,14 +18,7 @@ seo:
 
 <div class="portfolio-home">
   <div class="portfolio-shell">
-    <header class="site-header">
-      <a class="wordmark" href="/" aria-label="Sandeep Choudhary home">sandeep<span>k</span><b>.</b>dev</a>
-      <nav aria-label="Social links" class="social-nav">
-        <a href="https://github.com/skchoudhary/" target="_blank" rel="noopener noreferrer" data-goatcounter-click="github" data-goatcounter-title="GitHub">GitHub <span aria-hidden="true">↗</span></a>
-        <a href="https://www.linkedin.com/in/sandeepk15/" target="_blank" rel="noopener noreferrer" data-goatcounter-click="linkedin" data-goatcounter-title="LinkedIn">LinkedIn <span aria-hidden="true">↗</span></a>
-        <a href="https://twitter.com/sandeepk__" target="_blank" rel="noopener noreferrer" data-goatcounter-click="twitter" data-goatcounter-title="Twitter">Twitter <span aria-hidden="true">↗</span></a>
-      </nav>
-    </header>
+    {% include site-header.html %}
 
     <div class="portfolio-content">
       <section class="intro" aria-labelledby="intro-title">
@@ -111,7 +104,10 @@ seo:
       <footer class="about-footer">
         <p class="eyebrow">A little about me</p>
         <p>I like making useful things, learning from the people who use them, and improving them one step at a time.</p>
-        <a class="email-link" href="mailto:work@sandeepk.dev" data-goatcounter-click="email" data-goatcounter-title="Email">Say hello <span aria-hidden="true">↗</span></a>
+        <div class="footer-actions">
+          <a class="email-link" href="mailto:work@sandeepk.dev" data-goatcounter-click="email" data-goatcounter-title="Email">Say hello <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="/work/" data-goatcounter-click="work" data-goatcounter-title="Work history">Work history <span aria-hidden="true">↗</span></a>
+        </div>
         <div class="writing-links" aria-label="Writing">
           <span class="writing-label">Elsewhere</span>
           <a href="https://blogs.dgplug.org/sandeepk/" target="_blank" rel="noopener noreferrer" data-goatcounter-click="writing-engineering" data-goatcounter-title="Engineering and product notes">Engineering &amp; product notes <span aria-hidden="true">↗</span></a>
