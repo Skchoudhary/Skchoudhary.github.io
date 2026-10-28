@@ -40,6 +40,10 @@ theme_config:
 
 # Exclude from processing
 exclude:
+  # Outdated résumé, kept in the repo but no longer published or indexed.
+  # Remove this line to serve it again.
+  - SandeepChoudhary.pdf
+  - README.md
   - Gemfile
   - Gemfile.lock
   - node_modules
