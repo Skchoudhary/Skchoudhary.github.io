@@ -94,6 +94,7 @@ image:
             <a href="https://bookmarkoftheday.sandeepk.dev/" target="_blank" rel="noopener noreferrer" data-goatcounter-click="bookmark-of-the-day" data-goatcounter-title="Bookmark of the Day">Bookmark of the Day <span aria-hidden="true">↗</span></a>
             <a href="https://chromewebstore.google.com/detail/env-guard/ieedmpaefmifnkooblmidnkoapcojanj" target="_blank" rel="noopener noreferrer" data-goatcounter-click="env-guard" data-goatcounter-title="Env Guard">Env Guard <span aria-hidden="true">↗</span></a>
             <a href="https://github.com/Sk786/cctrack" target="_blank" rel="noopener noreferrer" data-goatcounter-click="cctrack" data-goatcounter-title="cctrack">cctrack <span aria-hidden="true">↗</span></a>
+            <a href="https://timepasswebsites.netlify.app/" target="_blank" rel="noopener noreferrer" data-goatcounter-click="timepass-websites" data-goatcounter-title="Timepass Websites">Timepass Websites <span aria-hidden="true">↗</span></a>
           </p>
         </section>
 

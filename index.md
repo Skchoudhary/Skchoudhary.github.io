@@ -34,7 +34,7 @@ seo:
             <p class="eyebrow">Made to be useful</p>
             <h2 id="products-title">Products &amp; experiments</h2>
           </div>
-          <span class="product-count">4 projects</span>
+          <span class="product-count">5 projects</span>
         </div>
 
         <div class="product-list">
@@ -95,6 +95,21 @@ seo:
             <div class="product-footer">
               <div class="product-proof"><span class="stage-label mvp-label">MVP</span><span class="proof-divider" aria-hidden="true"></span><span>Open source</span></div>
               <a class="try-link" href="https://github.com/Sk786/cctrack" target="_blank" rel="noopener noreferrer" data-goatcounter-click="cctrack" data-goatcounter-title="View cctrack on GitHub">View on GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="product-card timepass-card">
+            <div class="product-identity">
+              <img class="product-icon timepass-icon" src="/assets/images/timepass-icon.png" alt="Timepass Websites chicken mascot" width="76" height="76" />
+              <div>
+                <p class="product-category">For a five-minute break</p>
+                <h3>Timepass Websites</h3>
+              </div>
+            </div>
+            <p class="product-description">A collection of gloriously useless websites. Click the chicken, land somewhere unexpected, and lose a few minutes.</p>
+            <div class="product-footer">
+              <div class="product-proof"><span class="stage-label experiment-label">Experiment</span><span class="proof-divider" aria-hidden="true"></span><span>Free to explore</span></div>
+              <a class="try-link" href="https://timepasswebsites.netlify.app/" target="_blank" rel="noopener noreferrer" data-goatcounter-click="timepass-websites" data-goatcounter-title="Click the chicken">Click the chicken <span aria-hidden="true">↗</span></a>
             </div>
           </article>
 
