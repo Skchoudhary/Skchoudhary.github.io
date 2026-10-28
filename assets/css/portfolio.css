@@ -277,6 +277,29 @@ body[a="auto"] img {
   object-fit: contain;
 }
 
+.timepass-icon {
+  border: 1px solid #f2e6cd;
+  background: #ffffff;
+  object-fit: contain;
+}
+
+.timepass-card {
+  grid-column: 1 / -1;
+  display: grid;
+  min-height: 0;
+  grid-template-columns: minmax(0, 320px) minmax(0, 1fr);
+  align-items: center;
+  gap: 18px 34px;
+}
+
+.timepass-card .product-description {
+  margin: 0;
+}
+
+.timepass-card .product-footer {
+  grid-column: 1 / -1;
+}
+
 .product-category {
   margin: 0 0 2px;
   color: var(--muted);
@@ -785,6 +808,14 @@ body[a="auto"] img {
 
   .try-link {
     width: 100%;
+  }
+}
+
+@media (max-width: 980px) {
+  .timepass-card {
+    grid-template-columns: 1fr;
+    min-height: 0;
+    gap: 16px;
   }
 }
 
