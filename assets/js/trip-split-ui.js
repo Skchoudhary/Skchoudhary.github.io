@@ -141,7 +141,12 @@
     payer.value = String(expense.payer || 0);
 
     var items = list.querySelectorAll("li");
-    var selected = expense.split || [];
+    /* a new expense joins everyone until the user says otherwise */
+    var selected = Array.isArray(expense.split)
+      ? expense.split
+      : Array.prototype.map.call(items, function (_, index) {
+          return index;
+        });
     items.forEach(function (item, index) {
       var check = item.querySelector(".split-check");
       check.checked = selected.indexOf(index) !== -1;
@@ -517,7 +522,8 @@
 
   function addExpense() {
     var row = expenseRow({ desc: "", amountCents: null, payer: 0, mode: "equal", split: null, shares: null });
-    expenseList.appendChild(row);
+    /* newest first, so the next "+ Add expense" is always right above it */
+    expenseList.prepend(row);
     row.querySelector(".expense-desc").focus();
     render();
   }

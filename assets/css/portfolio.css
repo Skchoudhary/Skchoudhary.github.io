@@ -790,14 +790,16 @@ body[a="auto"] img {
 .amount-field span {
   position: absolute;
   top: 50%;
-  left: 10px;
+  left: 11px;
   transform: translateY(-50%);
   color: var(--muted);
   font-size: 13px;
+  pointer-events: none;
 }
 
-.amount-field input {
-  padding-left: 24px;
+/* needs to outrank .split-tool input[type="text"], which resets the padding */
+.split-tool .amount-field input {
+  padding-left: 27px;
 }
 
 .payer-field {
