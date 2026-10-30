@@ -111,6 +111,7 @@ image:
       <footer class="about-footer">
         <div class="writing-links" aria-label="More">
           <span class="writing-label">More</span>
+          <a href="/tools/" data-goatcounter-click="tools" data-goatcounter-title="Free tools">Free tools <span aria-hidden="true">↗</span></a>
           <a href="/writing/" data-goatcounter-click="writing" data-goatcounter-title="Writing">Writing <span aria-hidden="true">↗</span></a>
           <a href="/privacy/" data-goatcounter-click="privacy" data-goatcounter-title="Privacy">Privacy</a>
           <a href="mailto:work@sandeepk.dev" data-goatcounter-click="email" data-goatcounter-title="Email">Say hello <span aria-hidden="true">↗</span></a>

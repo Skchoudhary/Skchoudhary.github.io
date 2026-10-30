@@ -122,6 +122,7 @@ seo:
         <div class="footer-actions">
           <a class="email-link" href="mailto:work@sandeepk.dev" data-goatcounter-click="email" data-goatcounter-title="Email">Say hello <span aria-hidden="true">↗</span></a>
           <a class="text-link" href="/work/" data-goatcounter-click="work" data-goatcounter-title="Work history">Work history <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="/tools/" data-goatcounter-click="tools" data-goatcounter-title="Free tools">Free tools <span aria-hidden="true">↗</span></a>
         </div>
         <div class="writing-links" aria-label="Writing">
           <span class="writing-label">Elsewhere</span>

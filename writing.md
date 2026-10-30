@@ -86,6 +86,7 @@ image:
       <footer class="about-footer">
         <div class="writing-links" aria-label="More">
           <span class="writing-label">More</span>
+          <a href="/tools/" data-goatcounter-click="tools" data-goatcounter-title="Free tools">Free tools <span aria-hidden="true">↗</span></a>
           <a href="/work/" data-goatcounter-click="work" data-goatcounter-title="Work history">Work history <span aria-hidden="true">↗</span></a>
           <a href="https://blogs.dgplug.org/sandeepk/" target="_blank" rel="noopener noreferrer" data-goatcounter-click="writing-engineering" data-goatcounter-title="Engineering and product notes">Engineering &amp; product notes <span aria-hidden="true">↗</span></a>
           <a href="https://sandeepchoudharyme.wordpress.com/" target="_blank" rel="noopener noreferrer" data-goatcounter-click="writing-personal" data-goatcounter-title="Personal writing">Personal writing <span aria-hidden="true">↗</span></a>
