@@ -21,6 +21,35 @@
   var rowSeq = 0;
   var statusTimer = null;
   var hashTimer = null;
+  var trackedUse = false;
+  var pendingEvents = [];
+
+  /* GoatCounter's script is async, so early events wait for it if needed.
+     Everything no-ops when analytics is absent, such as a local build. */
+  function flushEvents() {
+    if (!window.goatcounter || typeof window.goatcounter.count !== "function") return;
+    while (pendingEvents.length) {
+      var event = pendingEvents.shift();
+      window.goatcounter.count({ path: event[0], event: true, title: event[1] });
+    }
+  }
+
+  function track(name, title) {
+    if (window.goatcounter && typeof window.goatcounter.count === "function") {
+      window.goatcounter.count({ path: name, event: true, title: title });
+    } else {
+      pendingEvents.push([name, title]);
+    }
+  }
+
+  window.addEventListener("load", function () {
+    flushEvents();
+    /* count.js is async; give it a couple more chances before dropping anything */
+    if (pendingEvents.length) {
+      setTimeout(flushEvents, 1000);
+      setTimeout(flushEvents, 3000);
+    }
+  });
 
   function make(tag, className, text) {
     var node = document.createElement(tag);
@@ -258,6 +287,11 @@
     var state = readState();
     var result = TS.compute(state);
 
+    if (result.totalCents > 0 && !trackedUse) {
+      trackedUse = true;
+      track("calc-used", "Trip split calculator used");
+    }
+
     Array.prototype.forEach.call(expenseList.querySelectorAll(".expense-row"), function (row, index) {
       var field = row.querySelector(".expense-error");
       var match = result.errors.filter(function (error) {
@@ -432,13 +466,19 @@
   function shareSummary() {
     var text = summaryText();
     if (navigator.share) {
-      navigator.share({ title: "Trip split", text: text }).catch(function () {
-        /* the user dismissed the sheet, or the platform refused */
-      });
+      navigator
+        .share({ title: "Trip split", text: text })
+        .then(function () {
+          track("share-summary", "Summary shared");
+        })
+        .catch(function () {
+          /* the user dismissed the sheet, or the platform refused */
+        });
       return;
     }
     copyText(text).then(
       function () {
+        track("share-summary", "Summary shared");
         flash("Summary copied — paste it into the group.");
       },
       function () {
@@ -535,6 +575,7 @@
 
   function loadExample() {
     applyState(TS.exampleState());
+    track("calc-example", "Example loaded");
     flash("Example loaded — edit anything.");
   }
 
@@ -626,6 +667,7 @@
   document.getElementById("copy-summary").addEventListener("click", function () {
     copyText(summaryText()).then(
       function () {
+        track("copy-summary", "Summary copied");
         flash("Summary copied — paste it into the group.");
       },
       function () {
@@ -636,6 +678,7 @@
   document.getElementById("copy-link").addEventListener("click", function () {
     copyText(currentUrl()).then(
       function () {
+        track("copy-link", "Link copied");
         flash("Link copied.");
       },
       function () {
@@ -653,6 +696,7 @@
   applyState(shared || TS.emptyState());
 
   if (shared) {
+    track("shared-link-opened", "Shared split opened");
     flash("Loaded the shared split.");
   }
 })();
